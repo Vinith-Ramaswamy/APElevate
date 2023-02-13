@@ -1,1 +1,1 @@
-web: gunicorn APElevate.wsgi --log-file -
+web: gunicorn 'APElevate.wsgi'
